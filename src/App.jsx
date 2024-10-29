@@ -19,7 +19,7 @@ function App() {
         theme="light"
 
       />
-      <BrowserRouter basename="/ManagerStudent">
+      <BrowserRouter basename="/Manager-Student">
         <Routes>
           <Route path="/" element={<Roll />} />
           <Route path="/student/:studentId" element={<StudentDetail />} />
